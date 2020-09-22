@@ -1,0 +1,14 @@
+Source: litepcie-dkms
+Maintainer: Derek Kozel <derek@bitstovolts.com>
+Build-Depends: debhelper (>= 12), dkms
+Standards-Version: 4.5.0
+Section: kernel
+Priority: optional
+
+Package: litepcie-dkms
+Architecture: all
+Depends: dkms (>= 1.95), ${misc:Depends}
+Description: DKMS source for the litePCIe driver
+ Provides the kernel module for the litePCIe in the LiteX FPGA System on Chip ecosystem.
+Section: kernel
+Priority: optional
